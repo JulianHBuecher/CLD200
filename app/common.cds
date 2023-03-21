@@ -4,7 +4,7 @@ using riskmanagement as rm from '../db/schema';
 annotate rm.Risks with {
     ID     @title : 'Risk';
     title  @title : 'Title';
-    owner  @title : 'Owner';
+    owner  @title : 'Owner(s)';
     prio   @title : 'Priority';
     descr  @title : 'Description';
     miti   @title : 'Mitigation';
